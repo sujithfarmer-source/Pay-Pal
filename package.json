@@ -9,23 +9,22 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "dotenv": "17.3.1",
-    "drizzle-orm": "0.45.2",
+    "@netlify/database": "^2.0.3",
+    "drizzle-orm": "^1.0.0-beta.22",
     "lucide-react": "^1.72.0",
     "next": "16.4.2",
-    "pg": "8.20.0",
     "react": "19.2.6",
     "react-dom": "19.2.6",
     "vite-tsconfig-paths": "^6.1.1",
     "vitest": "^5.1.0"
   },
   "devDependencies": {
+    "@netlify/functions": "^6.1.1",
     "@tailwindcss/postcss": "4.1.17",
     "@types/node": "22.19.15",
-    "@types/pg": "8.18.0",
     "@types/react": "19.2.14",
     "@types/react-dom": "19.2.3",
-    "drizzle-kit": "0.31.10",
+    "drizzle-kit": "^1.0.0-beta.22",
     "eslint": "9.39.4",
     "eslint-config-next": "16.4.2",
     "postcss": "8.5.23",
